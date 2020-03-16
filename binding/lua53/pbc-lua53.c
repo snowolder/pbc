@@ -897,6 +897,7 @@ luaopen_protobuf_c(lua_State *L) {
 		{"_last_error", _last_error },
 		{"_decode", _decode },
 		{"_gc", _gc },
+		{"_clear", _clear_gcobj },
 		{"_add_pattern", _add_pattern },
 		{"_add_rmessage", _add_rmessage },
 		{"_env_enum_id", _env_enum_id},
